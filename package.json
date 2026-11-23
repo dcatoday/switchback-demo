@@ -6,6 +6,7 @@
     "node": ">=22"
   },
   "scripts": {
+    "setup": "node scripts/setup-demo.mjs",
     "dev": "next dev",
     "build": "next build --webpack",
     "test": "node --import tsx --test test/offers.test.ts",
